@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ASDViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nOY-uK-ARX">
+                                <rect key="frame" x="-0.5" y="194" width="375" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Tl-B3-2IX">
+                                <rect key="frame" x="-0.5" y="323" width="375" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="ZDx-fE-d2n">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </activityIndicatorView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPW-GZ-cxQ">
+                                <rect key="frame" x="-0.5" y="507" width="375" height="30"/>
+                                <state key="normal" title="Try Again"/>
+                                <connections>
+                                    <action selector="tryAgainButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4bR-uy-Xms"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fPW-GZ-cxQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="487" id="8tb-MW-FTf"/>
+                            <constraint firstItem="ZDx-fE-d2n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Vy-Uf-cud"/>
+                            <constraint firstItem="8Tl-B3-2IX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eM6-GM-W1P"/>
+                            <constraint firstItem="fPW-GZ-cxQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eSV-lu-rjh"/>
+                            <constraint firstItem="8Tl-B3-2IX" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="gbb-xx-cVh"/>
+                            <constraint firstItem="nOY-uK-ARX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="j5I-g9-35U"/>
+                            <constraint firstItem="fPW-GZ-cxQ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="jRh-px-v20"/>
+                            <constraint firstItem="8Tl-B3-2IX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="303" id="jrz-qz-dxK"/>
+                            <constraint firstItem="nOY-uK-ARX" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="o5h-Nx-YKw"/>
+                            <constraint firstItem="ZDx-fE-d2n" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="oRF-Hg-uEa"/>
+                            <constraint firstItem="ZDx-fE-d2n" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sgr-lZ-XPd"/>
+                            <constraint firstItem="ZDx-fE-d2n" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="tK7-qe-cdl"/>
+                            <constraint firstItem="nOY-uK-ARX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="174" id="ty6-mM-8rA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="ZDx-fE-d2n" id="b4a-ob-UeI"/>
+                        <outlet property="cottonKeyboardsLabel" destination="nOY-uK-ARX" id="oDc-HF-Xge"/>
+                        <outlet property="totalRevenueLabel" destination="8Tl-B3-2IX" id="CsW-sa-IcP"/>
+                        <outlet property="tryAgainButton" destination="fPW-GZ-cxQ" id="gr8-yD-vha"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

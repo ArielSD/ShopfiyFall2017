@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2900D05A1C61AFE9CFEEEBCF /* libPods-ShopfiyFall2017.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D600D1651356F7D2B7846DC /* libPods-ShopfiyFall2017.a */; };
+		B043889B1EAA767A00D2508F /* ASDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B043889A1EAA767A00D2508F /* ASDViewController.m */; };
+		B043889E1EAA771900D2508F /* ASDAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B043889D1EAA771900D2508F /* ASDAPIClient.m */; };
+		B04388A11EAAA40600D2508F /* ASDStringFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B04388A01EAAA40600D2508F /* ASDStringFormatter.m */; };
+		B060A6621EAA69BC0049EF83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B060A6611EAA69BC0049EF83 /* main.m */; };
+		B060A6651EAA69BC0049EF83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B060A6641EAA69BC0049EF83 /* AppDelegate.m */; };
+		B060A66B1EAA69BC0049EF83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B060A6691EAA69BC0049EF83 /* Main.storyboard */; };
+		B060A66D1EAA69BC0049EF83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B060A66C1EAA69BC0049EF83 /* Assets.xcassets */; };
+		B060A6701EAA69BC0049EF83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B060A66E1EAA69BC0049EF83 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16AC80C414F8792F1BFA201F /* Pods-ShopfiyFall2017.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopfiyFall2017.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShopfiyFall2017/Pods-ShopfiyFall2017.release.xcconfig"; sourceTree = "<group>"; };
+		3D600D1651356F7D2B7846DC /* libPods-ShopfiyFall2017.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShopfiyFall2017.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6914BAF94E6CFC035ED402D0 /* Pods-ShopfiyFall2017.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopfiyFall2017.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShopfiyFall2017/Pods-ShopfiyFall2017.debug.xcconfig"; sourceTree = "<group>"; };
+		B04388991EAA767A00D2508F /* ASDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDViewController.h; sourceTree = "<group>"; };
+		B043889A1EAA767A00D2508F /* ASDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDViewController.m; sourceTree = "<group>"; };
+		B043889C1EAA771900D2508F /* ASDAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDAPIClient.h; sourceTree = "<group>"; };
+		B043889D1EAA771900D2508F /* ASDAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDAPIClient.m; sourceTree = "<group>"; };
+		B043889F1EAAA40600D2508F /* ASDStringFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDStringFormatter.h; sourceTree = "<group>"; };
+		B04388A01EAAA40600D2508F /* ASDStringFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDStringFormatter.m; sourceTree = "<group>"; };
+		B060A65D1EAA69BC0049EF83 /* ShopfiyFall2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopfiyFall2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B060A6611EAA69BC0049EF83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B060A6631EAA69BC0049EF83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B060A6641EAA69BC0049EF83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B060A66A1EAA69BC0049EF83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B060A66C1EAA69BC0049EF83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B060A66F1EAA69BC0049EF83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B060A6711EAA69BC0049EF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B060A65A1EAA69BC0049EF83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2900D05A1C61AFE9CFEEEBCF /* libPods-ShopfiyFall2017.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C7A4ED35AB298F919E73F77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6914BAF94E6CFC035ED402D0 /* Pods-ShopfiyFall2017.debug.xcconfig */,
+				16AC80C414F8792F1BFA201F /* Pods-ShopfiyFall2017.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B060A6541EAA69BB0049EF83 = {
+			isa = PBXGroup;
+			children = (
+				B060A65F1EAA69BC0049EF83 /* ShopfiyFall2017 */,
+				B060A65E1EAA69BC0049EF83 /* Products */,
+				6C7A4ED35AB298F919E73F77 /* Pods */,
+				E80939193F31BF853973EF3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B060A65E1EAA69BC0049EF83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B060A65D1EAA69BC0049EF83 /* ShopfiyFall2017.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B060A65F1EAA69BC0049EF83 /* ShopfiyFall2017 */ = {
+			isa = PBXGroup;
+			children = (
+				B060A6631EAA69BC0049EF83 /* AppDelegate.h */,
+				B060A6641EAA69BC0049EF83 /* AppDelegate.m */,
+				B04388991EAA767A00D2508F /* ASDViewController.h */,
+				B043889A1EAA767A00D2508F /* ASDViewController.m */,
+				B043889C1EAA771900D2508F /* ASDAPIClient.h */,
+				B043889D1EAA771900D2508F /* ASDAPIClient.m */,
+				B043889F1EAAA40600D2508F /* ASDStringFormatter.h */,
+				B04388A01EAAA40600D2508F /* ASDStringFormatter.m */,
+				B060A6691EAA69BC0049EF83 /* Main.storyboard */,
+				B060A66C1EAA69BC0049EF83 /* Assets.xcassets */,
+				B060A66E1EAA69BC0049EF83 /* LaunchScreen.storyboard */,
+				B060A6711EAA69BC0049EF83 /* Info.plist */,
+				B060A6601EAA69BC0049EF83 /* Supporting Files */,
+			);
+			path = ShopfiyFall2017;
+			sourceTree = "<group>";
+		};
+		B060A6601EAA69BC0049EF83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B060A6611EAA69BC0049EF83 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E80939193F31BF853973EF3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D600D1651356F7D2B7846DC /* libPods-ShopfiyFall2017.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B060A65C1EAA69BC0049EF83 /* ShopfiyFall2017 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B060A6741EAA69BC0049EF83 /* Build configuration list for PBXNativeTarget "ShopfiyFall2017" */;
+			buildPhases = (
+				C761C4097BE973BFCF0F34BC /* [CP] Check Pods Manifest.lock */,
+				B060A6591EAA69BC0049EF83 /* Sources */,
+				B060A65A1EAA69BC0049EF83 /* Frameworks */,
+				B060A65B1EAA69BC0049EF83 /* Resources */,
+				1C99E5F32F11DB230F8D2DA5 /* [CP] Embed Pods Frameworks */,
+				F41245426B21093C64772FFE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopfiyFall2017;
+			productName = ShopfiyFall2017;
+			productReference = B060A65D1EAA69BC0049EF83 /* ShopfiyFall2017.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B060A6551EAA69BB0049EF83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ariel Scott-Dicker";
+				TargetAttributes = {
+					B060A65C1EAA69BC0049EF83 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7LA77DS2EA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B060A6581EAA69BB0049EF83 /* Build configuration list for PBXProject "ShopfiyFall2017" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B060A6541EAA69BB0049EF83;
+			productRefGroup = B060A65E1EAA69BC0049EF83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B060A65C1EAA69BC0049EF83 /* ShopfiyFall2017 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B060A65B1EAA69BC0049EF83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B060A6701EAA69BC0049EF83 /* LaunchScreen.storyboard in Resources */,
+				B060A66D1EAA69BC0049EF83 /* Assets.xcassets in Resources */,
+				B060A66B1EAA69BC0049EF83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C99E5F32F11DB230F8D2DA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShopfiyFall2017/Pods-ShopfiyFall2017-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C761C4097BE973BFCF0F34BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F41245426B21093C64772FFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShopfiyFall2017/Pods-ShopfiyFall2017-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B060A6591EAA69BC0049EF83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B043889B1EAA767A00D2508F /* ASDViewController.m in Sources */,
+				B060A6651EAA69BC0049EF83 /* AppDelegate.m in Sources */,
+				B04388A11EAAA40600D2508F /* ASDStringFormatter.m in Sources */,
+				B043889E1EAA771900D2508F /* ASDAPIClient.m in Sources */,
+				B060A6621EAA69BC0049EF83 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B060A6691EAA69BC0049EF83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B060A66A1EAA69BC0049EF83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B060A66E1EAA69BC0049EF83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B060A66F1EAA69BC0049EF83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B060A6721EAA69BC0049EF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B060A6731EAA69BC0049EF83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B060A6751EAA69BC0049EF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6914BAF94E6CFC035ED402D0 /* Pods-ShopfiyFall2017.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7LA77DS2EA;
+				INFOPLIST_FILE = ShopfiyFall2017/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ShopfiyFall2017;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B060A6761EAA69BC0049EF83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16AC80C414F8792F1BFA201F /* Pods-ShopfiyFall2017.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7LA77DS2EA;
+				INFOPLIST_FILE = ShopfiyFall2017/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ShopfiyFall2017;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B060A6581EAA69BB0049EF83 /* Build configuration list for PBXProject "ShopfiyFall2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B060A6721EAA69BC0049EF83 /* Debug */,
+				B060A6731EAA69BC0049EF83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B060A6741EAA69BC0049EF83 /* Build configuration list for PBXNativeTarget "ShopfiyFall2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B060A6751EAA69BC0049EF83 /* Debug */,
+				B060A6761EAA69BC0049EF83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B060A6551EAA69BB0049EF83 /* Project object */;
+}
